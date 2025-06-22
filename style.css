@@ -1,0 +1,234 @@
+.cabecalho {
+    background-color: #001400;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.tudo {
+    background-image: radial-gradient(#badea7, #e4ffcf 70%, #e4ffcf); 
+
+    
+}
+
+
+.icones {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pc {
+    width: 100%
+}
+
+.logo {
+    width: 25%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 0%;
+
+}
+
+.projetos {
+    width: 11%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    
+}
+
+.integrantes {
+    width: 11%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+
+.contato {
+    width: 11%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    margin-right: 6%;
+}
+
+.titulo {
+    font-size: 10vw;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin-top: 10vw;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.texto {
+    font-size: 5vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    line-height: 1.3;
+    margin-right: 10vw;
+    text-align: center;
+    color: black;
+    justify-content: center;
+              font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5vw;
+
+}
+
+
+.pc {
+    display: none;
+}
+
+.agrinho {
+    text-align: center;
+        font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10vw;
+}
+
+.textoagrinho {
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-right: 10vw;
+        line-height: 1.3;
+    font-size: 5vw;
+                  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@media screen and (orientation: landscape) {
+
+
+.pc {
+    display: flex;
+    gap: 13%;
+    align-items: center;
+    position: relative;
+    margin-left: 30%;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.projetos, .contato, .integrantes {
+    display: none;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.logo {
+    width: 24%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 1%;
+}
+
+
+.projetos2 {
+    font-size: 2vw;
+
+
+}
+
+.integrantes2, .contato2 {
+
+    font-size: 2vw;
+
+}
+
+.titulo {
+    font-size: 3vw;
+    margin-top: 5vw;
+    justify-content: baseline;
+    text-align: left;
+    margin-left: 4vw;
+}
+
+.texto {
+    font-size: 2vw;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 7vw;
+    margin-top: 3vw;
+    line-height: 2;
+    margin-left: 4vw;
+}
+
+.bc {
+    width: 100%;
+    margin: 0;
+margin-right: 3vw;
+
+}
+
+.separa {
+    display: flex;
+}
+
+
+.agrinho {
+    text-align: center;
+        font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vw;
+    margin-top: 3vw;
+}
+
+.textoagrinho {
+    text-align: center;
+    margin-left: 8vw;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+    margin-right: 8vw;
+        line-height: 2;
+    font-size: 2vw;
+                  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+}
+
+a { color: inherit; }
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
